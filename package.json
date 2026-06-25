@@ -1,5 +1,5 @@
 {
-  "name": "@airlabs/airlabs-mcp",
+  "name": "@airlabs-co/airlabs-mcp",
   "version": "1.0.0",
   "description": "Official AirLabs API MCP server — real-time flight data, schedules, delays, airports, airlines, fleets and routes as tools for AI assistants.",
   "type": "module",
