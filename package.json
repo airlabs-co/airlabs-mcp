@@ -1,0 +1,48 @@
+{
+  "name": "@airlabs/airlabs-mcp",
+  "version": "1.0.0",
+  "description": "Official AirLabs API MCP server — real-time flight data, schedules, delays, airports, airlines, fleets and routes as tools for AI assistants.",
+  "type": "module",
+  "bin": {
+    "airlabs-mcp": "build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "start": "node build/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "airlabs",
+    "flight-data",
+    "aviation",
+    "flight-api",
+    "ai-agent",
+    "claude",
+    "llm"
+  ],
+  "author": "AirLabs (Data Products Ltd)",
+  "license": "MIT",
+  "homepage": "https://airlabs.co",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airlabs-co/airlabs-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/airlabs-co/airlabs-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  }
+}
